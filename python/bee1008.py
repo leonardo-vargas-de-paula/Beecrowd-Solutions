@@ -1,0 +1,5 @@
+num = int(input())
+hrs = int(input())
+din = round(float(input()), 2)
+print(f'NUMBER = {num}')
+print(f'SALARY = U$ {(hrs * din):.2f}')
